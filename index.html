@@ -10,13 +10,19 @@
     <div class="container">
         <h1>Pokémon Search</h1>
         <div class="search-container">
-            <input type="text" id="search-input" placeholder="Enter Pokémon name or ID">
+            <input type="text" id="search-input" placeholder="Enter Pokémon name or ID" required>
             <button id="search-button">Search</button>
         </div>
         
+        <div>
+            <marquee behavior="" direction="" id="marquee">
+                pikachu #25, charmander #4, bulbasaur #1, torkoal #324, charizard #6, squirtle #7, beedrill #15, arbok #24, vulpix #37, ninetales #38, diglett #50.
+            </marquee>
+        </div>
+
         <div class="pokemon-info">
             <div id="sprite-container">
-                <img id="sprite" src="" alt="Pokemon Sprite">
+                <img id="sprite" src="" alt="Pokémon Sprite" class="icon">
             </div>
             
             <div class="pokemon-details">
